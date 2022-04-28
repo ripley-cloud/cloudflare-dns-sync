@@ -7659,7 +7659,7 @@ var exports = __webpack_exports__;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 __nccwpck_require__(4262);
 var DNSSync_1 = __nccwpck_require__(610);
-if (process.argv.length != 1) {
+if (process.argv.length != 3) {
     console.error("Usage: main.ts newHostsFile");
     process.exit(-1);
 }

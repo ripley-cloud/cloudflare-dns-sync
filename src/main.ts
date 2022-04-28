@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { syncDNSToCloudFlare } from "./DNSSync";
 
-if(process.argv.length != 1){
+if(process.argv.length != 3){
     console.error("Usage: main.ts newHostsFile");
     process.exit(-1);
 }
